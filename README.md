@@ -25,6 +25,13 @@ After the successful installation, if you already have your pkgdown setup ready,
 ```YAML
 template:
   package: preferably
+
+footer:
+  structure:
+    left: developed_by
+    right: [built_with, preferably]
+  components:
+    preferably: 'Using <a href="https://preferably.amirmasoudabdol.name/?source=footer">preferably</a> template.'
 ```
 
 > ⚠️ Keep in mind that you should NOT use `default_assets: false` when you change the default template. 'preferably' relies on some of the 'pkgdown' assets and templates.
